@@ -1,7 +1,7 @@
 import openai
 import streamlit as st
 from openai import OpenAI
-client = OpenAI(api_key = st.secrets["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"])
+client = OpenAI(api_key = st.secrets["OPENAI_API_KEY"])
 # title
 
 st.title("Chat with AI")
